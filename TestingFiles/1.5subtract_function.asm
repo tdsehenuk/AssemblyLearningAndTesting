@@ -15,7 +15,7 @@ subtract:
 _start:
     push 5
     push 8
-    call subract
+    call subtract
     add esp, 8
 
     mov ebx, eax
